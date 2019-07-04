@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name='bn' value='chrome'></parameter>
+		<parameter name='url' value='http://newtours.demoaut.com'></parameter>
+		<classes>
+			<class name="in.keys2javaselenium.newtours1.testrunner.NewToursRunner">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+		<test name="Test2">
+		<parameter name='bn' value='ff'></parameter>
+		<parameter name='url' value='http://newtours.demoaut.com'></parameter>
+		<classes>
+			<class name="in.keys2javaselenium.newtours1.testrunner.NewToursRunner">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->
